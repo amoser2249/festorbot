@@ -95,11 +95,11 @@ function UpdateChannelName(new_channel_name, Server) {
   }
 
   // set the discord channel name and save to cache
-  let Channel = Client.channels.cache.get(Server.process.env.CHANNEL_ID);
+  let Channel = Client.channels.cache.get(Server.CHANNEL_ID);
   Channel.setName(new_channel_name)
     .then((newChannel) => {
       console.log(
-        `Channel ID ${Server.process.env.CHANNEL_ID} is now named: ${newChannel.name}`
+        `Channel ID ${Server.CHANNEL_ID} is now named: ${newChannel.name}`
       );
       Cache.set(Server.NAME, newChannel.name);
     })
