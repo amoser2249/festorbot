@@ -4,7 +4,7 @@
   "POLLING_INTERVAL": 300,
   "SERVERS": [
     {
-      "NAME": "Halloween Esseker",
+      "NAME": "Spooky Ess",
       "CHANNEL_ID": "1029820534566965288",
       "ADDRESS": "135.148.136.208",
       "PORT": "27017"
