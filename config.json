@@ -1,0 +1,14 @@
+{
+  "BOT_TOKEN": "=MTAyOTgxOTc1MzU4NzU2MDQ3MQ.GyxFUw.qt_9VOUMox4GPvbFAy526i6ACIyPuLKLmYaqDE",
+  "PRESENCE_NAME": "DayZ",
+  "PRESENCE_TYPE": "WATCHING",
+  "POLLING_INTERVAL": 300,
+  "SERVERS": [
+    {
+      "NAME": "Halloween Esseker",
+      "CHANNEL_ID": "1029820534566965288",
+      "ADDRESS": "135.148.136.208",
+      "PORT": "27017"
+    }
+  ]
+}
